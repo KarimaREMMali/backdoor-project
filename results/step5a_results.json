@@ -1,0 +1,9 @@
+{
+  "cluster_class7_only": {
+    "accuracy_clean": 0.9857000112533569,
+    "asr": 0.0052863433957099915,
+    "other_classes_to_target": 0.008676789700984955,
+    "retirees": 1237,
+    "saines_retirees": 618
+  }
+}

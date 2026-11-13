@@ -1,0 +1,112 @@
+{
+  "0.01": {
+    "n_empoisonnes": 62,
+    "compromis": {
+      "accuracy_clean": 0.9886000156402588,
+      "asr": 0.9920704960823059,
+      "other_classes_to_target": 0.04912593960762024
+    },
+    "detection": {
+      "signales": 2355,
+      "TP": 62,
+      "FP": 2293,
+      "FN": 0,
+      "precision": 0.026326963906581742,
+      "rappel": 1.0,
+      "F1": 0.05130326851468763
+    },
+    "remedie": {
+      "accuracy_clean": 0.9692999720573425,
+      "asr": 0.0,
+      "other_classes_to_target": 0.0003827995387837291
+    }
+  },
+  "0.025": {
+    "n_empoisonnes": 155,
+    "compromis": {
+      "accuracy_clean": 0.9887999892234802,
+      "asr": 0.9982379078865051,
+      "other_classes_to_target": 0.1578410118818283
+    },
+    "detection": {
+      "signales": 2218,
+      "TP": 155,
+      "FP": 2063,
+      "FN": 0,
+      "precision": 0.06988277727682597,
+      "rappel": 1.0,
+      "F1": 0.1306363253265908
+    },
+    "remedie": {
+      "accuracy_clean": 0.9735000133514404,
+      "asr": 0.0,
+      "other_classes_to_target": 0.00025519970222376287
+    }
+  },
+  "0.05": {
+    "n_empoisonnes": 310,
+    "compromis": {
+      "accuracy_clean": 0.9876999855041504,
+      "asr": 0.9991189241409302,
+      "other_classes_to_target": 0.18093658983707428
+    },
+    "detection": {
+      "signales": 2623,
+      "TP": 301,
+      "FP": 2322,
+      "FN": 9,
+      "precision": 0.11475409836065574,
+      "rappel": 0.9709677419354839,
+      "F1": 0.2052505966587112
+    },
+    "remedie": {
+      "accuracy_clean": 0.9750000238418579,
+      "asr": 0.9903083443641663,
+      "other_classes_to_target": 0.04861554130911827
+    }
+  },
+  "0.075": {
+    "n_empoisonnes": 466,
+    "compromis": {
+      "accuracy_clean": 0.9894000291824341,
+      "asr": 0.9991189241409302,
+      "other_classes_to_target": 0.22444812953472137
+    },
+    "detection": {
+      "signales": 2562,
+      "TP": 458,
+      "FP": 2104,
+      "FN": 8,
+      "precision": 0.17876658860265418,
+      "rappel": 0.9828326180257511,
+      "F1": 0.30250990752972257
+    },
+    "remedie": {
+      "accuracy_clean": 0.9787999987602234,
+      "asr": 0.9797356724739075,
+      "other_classes_to_target": 0.02284037321805954
+    }
+  },
+  "0.1": {
+    "n_empoisonnes": 621,
+    "compromis": {
+      "accuracy_clean": 0.9879000186920166,
+      "asr": 1.0,
+      "other_classes_to_target": 0.23478372395038605
+    },
+    "detection": {
+      "signales": 1237,
+      "TP": 619,
+      "FP": 618,
+      "FN": 2,
+      "precision": 0.5004042037186742,
+      "rappel": 0.9967793880837359,
+      "F1": 0.6663078579117331
+    },
+    "remedie": {
+      "accuracy_clean": 0.9857000112533569,
+      "asr": 0.0052863433957099915,
+      "other_classes_to_target": 0.008676789700984955
+    }
+  }
+}

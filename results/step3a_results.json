@@ -1,0 +1,104 @@
+{
+  "clustering_par_classe": [
+    {
+      "classe": 0,
+      "n": 5414,
+      "taille_petit_cluster": 2081,
+      "taille_relative": 0.384373845585519,
+      "silhouette": 0.2625978887081146,
+      "classe_signalee": false
+    },
+    {
+      "classe": 1,
+      "n": 5586,
+      "taille_petit_cluster": 2778,
+      "taille_relative": 0.49731471535982813,
+      "silhouette": 0.4084165096282959,
+      "classe_signalee": false
+    },
+    {
+      "classe": 2,
+      "n": 5481,
+      "taille_petit_cluster": 1920,
+      "taille_relative": 0.35030103995621237,
+      "silhouette": 0.19370242953300476,
+      "classe_signalee": false
+    },
+    {
+      "classe": 3,
+      "n": 5648,
+      "taille_petit_cluster": 2699,
+      "taille_relative": 0.47786827195467424,
+      "silhouette": 0.13651521503925323,
+      "classe_signalee": false
+    },
+    {
+      "classe": 4,
+      "n": 5329,
+      "taille_petit_cluster": 2290,
+      "taille_relative": 0.429724150872584,
+      "silhouette": 0.17026330530643463,
+      "classe_signalee": false
+    },
+    {
+      "classe": 5,
+      "n": 4959,
+      "taille_petit_cluster": 2433,
+      "taille_relative": 0.4906231094978826,
+      "silhouette": 0.21207444369792938,
+      "classe_signalee": false
+    },
+    {
+      "classe": 6,
+      "n": 5432,
+      "taille_petit_cluster": 2238,
+      "taille_relative": 0.4120029455081001,
+      "silhouette": 0.21767492592334747,
+      "classe_signalee": false
+    },
+    {
+      "classe": 7,
+      "n": 6366,
+      "taille_petit_cluster": 2595,
+      "taille_relative": 0.40763430725730443,
+      "silhouette": 0.1999022215604782,
+      "classe_signalee": false
+    },
+    {
+      "classe": 8,
+      "n": 5365,
+      "taille_petit_cluster": 2353,
+      "taille_relative": 0.4385834109972041,
+      "silhouette": 0.16304337978363037,
+      "classe_signalee": false
+    },
+    {
+      "classe": 9,
+      "n": 5420,
+      "taille_petit_cluster": 2435,
+      "taille_relative": 0.4492619926199262,
+      "silhouette": 0.1946229636669159,
+      "classe_signalee": false
+    }
+  ],
+  "metriques": {
+    "Manuelle (PCA+KMeans)": {
+      "signales": 0,
+      "TP": 0,
+      "FP": 0,
+      "FN": 621,
+      "precision": 0.0,
+      "rappel": 0.0,
+      "F1": 0.0
+    },
+    "ART (smaller)": {
+      "signales": 23786,
+      "TP": 618,
+      "FP": 23168,
+      "FN": 3,
+      "precision": 0.025981669889851174,
+      "rappel": 0.9951690821256038,
+      "F1": 0.050641209489081004
+    }
+  }
+}

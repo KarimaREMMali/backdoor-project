@@ -1,0 +1,92 @@
+{
+  "Référence": {
+    "accuracy_clean": 0.9866999983787537,
+    "asr": 0.0008810572908259928,
+    "other_classes_to_target": 0.0015311981551349163
+  },
+  "Compromis": {
+    "accuracy_clean": 0.9879000186920166,
+    "asr": 1.0,
+    "other_classes_to_target": 0.23478372395038605
+  },
+  "ART smaller": {
+    "accuracy_clean": 0.9355999827384949,
+    "asr": 0.22555066645145416,
+    "other_classes_to_target": 0.05537833273410797,
+    "retirees": 23786,
+    "empoisonnees_retirees": 618,
+    "empoisonnees_restantes": 3,
+    "retirees_par_classe": [
+      2467,
+      2445,
+      2176,
+      2481,
+      2301,
+      2274,
+      2348,
+      2467,
+      2251,
+      2576
+    ]
+  },
+  "Clustering logits ICA-5": {
+    "accuracy_clean": 0.9700999855995178,
+    "asr": 0.016740087419748306,
+    "other_classes_to_target": 0.00931478850543499,
+    "retirees": 3190,
+    "empoisonnees_retirees": 619,
+    "empoisonnees_restantes": 2,
+    "retirees_par_classe": [
+      0,
+      1953,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1237,
+      0,
+      0
+    ]
+  },
+  "Spectral logits 15%": {
+    "accuracy_clean": 0.9803000092506409,
+    "asr": 0.9964757561683655,
+    "other_classes_to_target": 0.09735868126153946,
+    "retirees": 8250,
+    "empoisonnees_retirees": 496,
+    "empoisonnees_restantes": 125,
+    "retirees_par_classe": [
+      812,
+      838,
+      822,
+      847,
+      799,
+      744,
+      815,
+      955,
+      805,
+      813
+    ]
+  },
+  "Oracle": {
+    "accuracy_clean": 0.991599977016449,
+    "asr": 0.0,
+    "other_classes_to_target": 0.001275998423807323,
+    "retirees": 621,
+    "empoisonnees_retirees": 621,
+    "empoisonnees_restantes": 0,
+    "retirees_par_classe": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      621,
+      0,
+      0
+    ]
+  }
+}

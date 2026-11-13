@@ -1,0 +1,175 @@
+{
+  "diagnostic_clustering": {
+    "activations(128) | PCA | 2": {
+      "signales": 0,
+      "TP": 0,
+      "FP": 0,
+      "FN": 621,
+      "precision": 0.0,
+      "rappel": 0.0,
+      "F1": 0.0,
+      "classe7_petit_cluster": 0.4114043355325165,
+      "classe7_empoisonnes_dedans": 2
+    },
+    "activations(128) | PCA | 5": {
+      "signales": 0,
+      "TP": 0,
+      "FP": 0,
+      "FN": 621,
+      "precision": 0.0,
+      "rappel": 0.0,
+      "F1": 0.0,
+      "classe7_petit_cluster": 0.4029217719132894,
+      "classe7_empoisonnes_dedans": 0
+    },
+    "activations(128) | PCA | 10": {
+      "signales": 0,
+      "TP": 0,
+      "FP": 0,
+      "FN": 621,
+      "precision": 0.0,
+      "rappel": 0.0,
+      "F1": 0.0,
+      "classe7_petit_cluster": 0.40763430725730443,
+      "classe7_empoisonnes_dedans": 0
+    },
+    "activations(128) | FastICA | 2": {
+      "signales": 3684,
+      "TP": 0,
+      "FP": 3684,
+      "FN": 621,
+      "precision": 0.0,
+      "rappel": 0.0,
+      "F1": 0.0,
+      "classe7_petit_cluster": 0.42334275840402136,
+      "classe7_empoisonnes_dedans": 617
+    },
+    "activations(128) | FastICA | 5": {
+      "signales": 5881,
+      "TP": 617,
+      "FP": 5264,
+      "FN": 4,
+      "precision": 0.1049141302499575,
+      "rappel": 0.9935587761674718,
+      "F1": 0.18978775761304215,
+      "classe7_petit_cluster": 0.1803330191643104,
+      "classe7_empoisonnes_dedans": 617
+    },
+    "activations(128) | FastICA | 10": {
+      "signales": 6531,
+      "TP": 0,
+      "FP": 6531,
+      "FN": 621,
+      "precision": 0.0,
+      "rappel": 0.0,
+      "F1": 0.0,
+      "classe7_petit_cluster": 0.36459315111530005,
+      "classe7_empoisonnes_dedans": 618
+    },
+    "logits(10) | PCA | 2": {
+      "signales": 0,
+      "TP": 0,
+      "FP": 0,
+      "FN": 621,
+      "precision": 0.0,
+      "rappel": 0.0,
+      "F1": 0.0,
+      "classe7_petit_cluster": 0.38956958843858,
+      "classe7_empoisonnes_dedans": 618
+    },
+    "logits(10) | PCA | 5": {
+      "signales": 0,
+      "TP": 0,
+      "FP": 0,
+      "FN": 621,
+      "precision": 0.0,
+      "rappel": 0.0,
+      "F1": 0.0,
+      "classe7_petit_cluster": 0.3884699968583098,
+      "classe7_empoisonnes_dedans": 618
+    },
+    "logits(10) | PCA | 10": {
+      "signales": 0,
+      "TP": 0,
+      "FP": 0,
+      "FN": 621,
+      "precision": 0.0,
+      "rappel": 0.0,
+      "F1": 0.0,
+      "classe7_petit_cluster": 0.3887841658812441,
+      "classe7_empoisonnes_dedans": 618
+    },
+    "logits(10) | FastICA | 2": {
+      "signales": 0,
+      "TP": 0,
+      "FP": 0,
+      "FN": 621,
+      "precision": 0.0,
+      "rappel": 0.0,
+      "F1": 0.0,
+      "classe7_petit_cluster": 0.4011938422871505,
+      "classe7_empoisonnes_dedans": 616
+    },
+    "logits(10) | FastICA | 5": {
+      "signales": 3190,
+      "TP": 619,
+      "FP": 2571,
+      "FN": 2,
+      "precision": 0.19404388714733542,
+      "rappel": 0.9967793880837359,
+      "F1": 0.3248491209656258,
+      "classe7_petit_cluster": 0.19431354068488846,
+      "classe7_empoisonnes_dedans": 619
+    },
+    "logits(10) | FastICA | 10": {
+      "signales": 3294,
+      "TP": 0,
+      "FP": 3294,
+      "FN": 621,
+      "precision": 0.0,
+      "rappel": 0.0,
+      "F1": 0.0,
+      "classe7_petit_cluster": 0.38956958843858,
+      "classe7_empoisonnes_dedans": 613
+    }
+  },
+  "spectral_signatures": {
+    "activations(128) | 10%": {
+      "signales": 5500,
+      "TP": 0,
+      "FP": 5500,
+      "FN": 621,
+      "precision": 0.0,
+      "rappel": 0.0,
+      "F1": 0.0
+    },
+    "activations(128) | 15%": {
+      "signales": 8250,
+      "TP": 3,
+      "FP": 8247,
+      "FN": 618,
+      "precision": 0.0003636363636363636,
+      "rappel": 0.004830917874396135,
+      "F1": 0.0006763611768684477
+    },
+    "logits(10) | 10%": {
+      "signales": 5500,
+      "TP": 397,
+      "FP": 5103,
+      "FN": 224,
+      "precision": 0.07218181818181818,
+      "rappel": 0.6392914653784219,
+      "F1": 0.1297173664433916
+    },
+    "logits(10) | 15%": {
+      "signales": 8250,
+      "TP": 496,
+      "FP": 7754,
+      "FN": 125,
+      "precision": 0.060121212121212124,
+      "rappel": 0.7987117552334944,
+      "F1": 0.11182504790891669
+    }
+  },
+  "meilleur_clustering": "logits(10) | FastICA | 5"
+}
